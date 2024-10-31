@@ -5,5 +5,5 @@ def write_markdown_file(content, filename):
     content: The string content to write to the file.
     filename: The filename to save the file as.
   """
-  with open(f"{filename}.md", "w") as f:
+  with open(f"{filename}.md", "w", encoding="utf-8") as f:
     f.write(content)

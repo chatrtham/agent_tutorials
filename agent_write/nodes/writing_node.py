@@ -35,6 +35,7 @@ def writing_node(state):
         # Invoke the write_chain
         result = write_chain.invoke({
             "intructions": initial_instruction,
+            "title": state['llm_name'],
             "plan": plan,
             "text": text,
             "STEP": step

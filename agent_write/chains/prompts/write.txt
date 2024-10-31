@@ -10,6 +10,9 @@ Writing steps:
 
 Already written text:
 
+# {title}
+
 {text}
 
 Please integrate the original writing instruction, writing steps, and the already written text, and now continue writing {STEP}. If needed, you can add a small subtitle at the beginning. Remember to only output the paragraph you write, without repeating the already written text.
+Use h2, h3, h4 as headings and subheadings.

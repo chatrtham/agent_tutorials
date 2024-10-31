@@ -61,3 +61,5 @@ coverage.xml
 *.bak
 *.tmp
 *.temp
+
+agent_write/docs/

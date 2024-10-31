@@ -19,7 +19,9 @@ def saving_node(state):
     final_doc = final_doc + f"\n\nTotal word count: {word_count}"
 
     # save to local disk
-    write_markdown_file(final_doc, f"final_doc_{llm_name}")
-    write_markdown_file(plan, f"plan_{llm_name}")
+    write_markdown_file(final_doc, f"docs/final_doc/final_doc_{llm_name}")
+    write_markdown_file(plan, f"docs/plan/plan_{llm_name}")
+
+    print(f"---DOCUMENT SAVED AS final_doc_{llm_name}.md---")
 
     return { "num_steps":num_steps}

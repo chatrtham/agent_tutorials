@@ -8,8 +8,12 @@ Please break it down in the following format, with each subtask taking up one li
 
 Paragraph 1 - Main Point: [Describe the main point of the paragraph, in detail] - Word Count: [Word count requirement, e.g., 400 words]
 
-Paragraph 2 - Main Point: [Describe the main point of the paragraph, in detail] - Word Count: [word count requirement, e.g. 1000 words].
+Paragraph 2 - Main Point: [Describe the main point of the paragraph, in detail] - Word Count: [Word count requirement, e.g. 1000 words].
 
 ...
 
-Make sure that each subtask is clear and specific, and that all subtasks cover the entire content of the writing instruction. Do not split the subtasks too finely; each subtask's paragraph should be no less than 200 words and no more than 1000 words. Do not output any other content. As this is an ongoing work, omit open-ended conclusions or other rhetorical hooks.
+If the instruction contains a list like "10 ways to do X" or "10 items," make sure to assign each list item to a separate paragraph, with its own subtask. Each subtask should clearly focus on one item from the list, breaking it down with detailed points and word count requirements. Do not merge multiple items into one paragraph.
+
+Make sure that each subtask is clear and specific, and that all subtasks cover the entire content of the writing instruction. Do not output any other content. As this is an ongoing work, omit open-ended conclusions or other rhetorical hooks.
+
+Note that the audiences are Thai, so don't forget to localize the content for Thai people
